@@ -13,7 +13,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:background="@color/myBlack"
         android:orientation="vertical"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
@@ -26,7 +25,6 @@
             android:layout_height="wrap_content"
             android:text="@string/success"
             android:textAlignment="center"
-            android:textColor="@color/myWhite"
             android:textSize="24dp" />
     </LinearLayout>
 
@@ -34,7 +32,6 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/myTransparent"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
