@@ -16,6 +16,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 
+//Main class
 public class MainActivity extends AppCompatActivity {
 
     String Email,Pass;
